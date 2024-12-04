@@ -12,7 +12,7 @@ export default function Home() {
         onPress={() => router.replace("/login")}
         style={styles.containerHome}
       >
-        <Text style={styles.text}>WELCOME TO SHOPPERS</Text>
+        <Text style={styles.textHome}>WELCOME TO SHOPPERS</Text>
         <HomeImage />
       </TouchableOpacity>
     </>

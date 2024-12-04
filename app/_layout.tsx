@@ -7,6 +7,7 @@ import { useEffect } from "react";
 export default function RootLayout() {
   const [loaded] = useFonts({
     InterSemiBold: require("../assets/fonts/InterSemiBold.ttf"),
+    InterRegular: require("../assets/fonts/InterRegular.ttf"),
   });
 
   useEffect(() => {
